@@ -1,0 +1,127 @@
+{
+  "title": "送别",
+  "composer": "J. P. 奥特威",
+  "lyricist": "李叔同",
+  "instrument": "口琴",
+  "tonic": "C",
+  "tonic_octave": 4,
+  "mode": "major",
+  "time": [4, 4],
+  "preview_tempo": 80,
+  "output_basename": "songbie",
+  "assumptions": [
+    "The source does not print a tempo; 80 BPM is used only for MIDI preview.",
+    "Undotted degree 1 is mapped to middle C (C4), appropriate for a portable editable transcription.",
+    "The screenshot contains 20 measures; the first four are treated as an instrumental introduction.",
+    "The two lyric rows are encoded as verses 1 and 2 exactly where visible."
+  ],
+  "measures": [
+    {"notes": [
+      {"degree": 5, "duration": "q"},
+      {"degree": 3, "duration": "e", "slur_start": 1},
+      {"degree": 5, "duration": "e", "slur_stop": 1, "lyric_anchor": false},
+      {"degree": 1, "octave": 1, "duration": "dq"},
+      {"degree": 7, "duration": "e"}
+    ]},
+    {"notes": [
+      {"degree": 6, "duration": "q"},
+      {"degree": 1, "octave": 1, "duration": "q"},
+      {"degree": 5, "duration": "h"}
+    ]},
+    {"notes": [
+      {"degree": 5, "duration": "q"},
+      {"degree": 2, "duration": "e", "slur_start": 1},
+      {"degree": 3, "duration": "e", "slur_stop": 1, "lyric_anchor": false},
+      {"degree": 4, "duration": "dq"},
+      {"degree": 7, "octave": -1, "duration": "e"}
+    ]},
+    {"notes": [{"degree": 1, "duration": "w"}]},
+
+    {"notes": [
+      {"degree": 5, "duration": "q"},
+      {"degree": 3, "duration": "e", "slur_start": 1},
+      {"degree": 5, "duration": "e", "slur_stop": 1, "lyric_anchor": false},
+      {"degree": 1, "octave": 1, "duration": "h"}
+    ], "lyrics": {"1": ["长", "亭", "外"], "2": ["长", "亭", "外"]}},
+    {"notes": [
+      {"degree": 6, "duration": "q"},
+      {"degree": 1, "octave": 1, "duration": "e", "slur_start": 1},
+      {"degree": 6, "duration": "e", "slur_stop": 1, "lyric_anchor": false},
+      {"degree": 5, "duration": "h"}
+    ], "lyrics": {"1": ["古", "道", "边"], "2": ["古", "道", "边"]}},
+    {"notes": [
+      {"degree": 5, "duration": "q"},
+      {"degree": 1, "duration": "e", "slur_start": 1},
+      {"degree": 2, "duration": "e", "slur_stop": 1, "lyric_anchor": false},
+      {"degree": 3, "duration": "q"},
+      {"degree": 2, "duration": "e", "slur_start": 2},
+      {"degree": 1, "duration": "e", "slur_stop": 2, "lyric_anchor": false}
+    ], "lyrics": {"1": ["芳", "草", "碧", "连"], "2": ["芳", "草", "碧", "连"]}},
+    {"notes": [{"degree": 2, "duration": "w"}], "lyrics": {"1": ["天"], "2": ["天"]}},
+
+    {"notes": [
+      {"degree": 5, "duration": "q"},
+      {"degree": 3, "duration": "e", "slur_start": 1},
+      {"degree": 5, "duration": "e", "slur_stop": 1, "lyric_anchor": false},
+      {"degree": 1, "octave": 1, "duration": "dq"},
+      {"degree": 7, "duration": "e"}
+    ], "lyrics": {"1": ["晚", "风", "拂", "柳"], "2": ["问", "君", "此", "去"]}},
+    {"notes": [
+      {"degree": 6, "duration": "q"},
+      {"degree": 1, "octave": 1, "duration": "q"},
+      {"degree": 5, "duration": "h"}
+    ], "lyrics": {"1": ["笛", "声", "残"], "2": ["几", "时", "来"]}},
+    {"notes": [
+      {"degree": 5, "duration": "q"},
+      {"degree": 2, "duration": "e", "slur_start": 1},
+      {"degree": 3, "duration": "e", "slur_stop": 1, "lyric_anchor": false},
+      {"degree": 4, "duration": "dq"},
+      {"degree": 7, "octave": -1, "duration": "e"}
+    ], "lyrics": {"1": ["夕", "阳", "山", "外"], "2": ["来", "时", "莫", "徘"]}},
+    {"notes": [{"degree": 1, "duration": "w"}], "lyrics": {"1": ["山"], "2": ["徊"]}},
+
+    {"notes": [
+      {"degree": 6, "duration": "q"},
+      {"degree": 1, "octave": 1, "duration": "q"},
+      {"degree": 1, "octave": 1, "duration": "h"}
+    ], "lyrics": {"1": ["天", "之", "涯"], "2": ["天", "之", "涯"]}},
+    {"notes": [
+      {"degree": 7, "duration": "q"},
+      {"degree": 6, "duration": "e", "slur_start": 1},
+      {"degree": 7, "duration": "e", "slur_stop": 1, "lyric_anchor": false},
+      {"degree": 1, "octave": 1, "duration": "h"}
+    ], "lyrics": {"1": ["地", "之", "角"], "2": ["地", "之", "角"]}},
+    {"notes": [
+      {"degree": 6, "duration": "e", "slur_start": 1},
+      {"degree": 7, "duration": "e", "slur_stop": 1, "lyric_anchor": false},
+      {"degree": 1, "octave": 1, "duration": "e", "slur_start": 2},
+      {"degree": 6, "duration": "e", "slur_stop": 2, "lyric_anchor": false},
+      {"degree": 6, "duration": "e", "slur_start": 3},
+      {"degree": 5, "duration": "e", "slur_stop": 3, "lyric_anchor": false},
+      {"degree": 3, "duration": "e", "slur_start": 4},
+      {"degree": 1, "duration": "e", "slur_stop": 4, "lyric_anchor": false}
+    ], "lyrics": {"1": ["知", "交", "半", "零"], "2": ["知", "交", "半", "零"]}},
+    {"notes": [{"degree": 2, "duration": "w"}], "lyrics": {"1": ["落"], "2": ["落"]}},
+
+    {"notes": [
+      {"degree": 5, "duration": "q"},
+      {"degree": 3, "duration": "e", "slur_start": 1},
+      {"degree": 5, "duration": "e", "slur_stop": 1, "lyric_anchor": false},
+      {"degree": 1, "octave": 1, "duration": "dq"},
+      {"degree": 7, "duration": "e"}
+    ], "lyrics": {"1": ["一", "壶", "浊", "酒"], "2": ["人", "生", "难", "得"]}},
+    {"notes": [
+      {"degree": 6, "duration": "q"},
+      {"degree": 1, "octave": 1, "duration": "q"},
+      {"degree": 5, "duration": "h"}
+    ], "lyrics": {"1": ["尽", "余", "欢"], "2": ["是", "欢", "聚"]}},
+    {"notes": [
+      {"degree": 5, "duration": "q"},
+      {"degree": 2, "duration": "e", "slur_start": 1},
+      {"degree": 3, "duration": "e", "slur_stop": 1, "lyric_anchor": false},
+      {"degree": 4, "duration": "dq"},
+      {"degree": 7, "octave": -1, "duration": "e"}
+    ], "lyrics": {"1": ["今", "宵", "别", "梦"], "2": ["惟", "有", "别", "离"]}},
+    {"notes": [{"degree": 1, "duration": "w"}], "lyrics": {"1": ["寒"], "2": ["多"]}}
+  ]
+}

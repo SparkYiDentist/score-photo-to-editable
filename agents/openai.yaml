@@ -1,0 +1,3 @@
+interface:
+  display_name: "Score Photo to Editable"
+  short_description: "Turn score images into checked MusicXML and MIDI"
